@@ -3,7 +3,9 @@
 Benchmark, telemetry harness and evaluation code for the paper
 
 **Automation Is Not Intent: Measuring and Fixing Fraud-Model Failures on Legitimate AI Shopping Agents**
-Rishabh Pande, 2026. [PDF](paper/automation-is-not-intent.pdf) · arXiv: *link coming soon*
+Rishabh Pande, 2026. [PDF](paper/automation-is-not-intent.pdf) · Preprint DOI: [10.5281/zenodo.23477625](https://doi.org/10.5281/zenodo.23477625) · arXiv: *coming soon*
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23477625.svg)](https://doi.org/10.5281/zenodo.23477625)
 
 Fraud models learned that "bot-like" means "risky." AI shopping agents now make legitimate purchases with exactly those signals. AgentRisk measures how often fraud models decline legitimate agents, shows how the obvious fixes fail (safe harbor, laundering, hijacking), and evaluates **AgentGate**, a verify–scope–score policy built on agent identity, delegation and mandate scope.
 
@@ -72,7 +74,9 @@ Human, fraud, transaction and delegation features are simulated, and every assum
   title  = {Automation Is Not Intent: Measuring and Fixing Fraud-Model Failures on Legitimate AI Shopping Agents},
   author = {Pande, Rishabh},
   year   = {2026},
-  note   = {arXiv preprint}
+  publisher = {Zenodo},
+  doi    = {10.5281/zenodo.23477625},
+  url    = {https://doi.org/10.5281/zenodo.23477625}
 }
 ```
 
