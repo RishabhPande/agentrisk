@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use AgentRisk, please cite the paper."
+title: "AgentRisk"
+authors:
+  - family-names: Pande
+    given-names: Rishabh
+license: MIT
+preferred-citation:
+  type: article
+  title: "Automation Is Not Intent: Measuring and Fixing Fraud-Model Failures on Legitimate AI Shopping Agents"
+  authors:
+    - family-names: Pande
+      given-names: Rishabh
+  year: 2026

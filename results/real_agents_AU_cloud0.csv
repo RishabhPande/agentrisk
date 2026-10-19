@@ -1,0 +1,64 @@
+seed,session,mode,policy,decline,stepup,cloud,ctx
+0,l6u9n9wf5y7anrplg6q0,click,Legacy,0.1465,0.0,0.0,AU
+0,l6u9n9wf5y7anrplg6q0,click,Retrained,0.062,0.0,0.0,AU
+0,l6u9n9wf5y7anrplg6q0,click,AgentGate,0.0995,0.1865,0.0,AU
+0,6mxiize2a5jrj20r9ccp,click,Legacy,0.1515,0.0,0.0,AU
+0,6mxiize2a5jrj20r9ccp,click,Retrained,0.062,0.0,0.0,AU
+0,6mxiize2a5jrj20r9ccp,click,AgentGate,0.098,0.1805,0.0,AU
+0,2ot5kxh8yt00con7iakx,click,Legacy,0.1455,0.0,0.0,AU
+0,2ot5kxh8yt00con7iakx,click,Retrained,0.063,0.0,0.0,AU
+0,2ot5kxh8yt00con7iakx,click,AgentGate,0.1,0.184,0.0,AU
+0,ld2t5laeeyzessds7r7q,keyboard,Legacy,0.037,0.0,0.0,AU
+0,ld2t5laeeyzessds7r7q,keyboard,Retrained,0.0215,0.0,0.0,AU
+0,ld2t5laeeyzessds7r7q,keyboard,AgentGate,0.0255,0.0,0.0,AU
+0,my4xifc45w2kz0qhgvo2,keyboard,Legacy,0.557,0.0,0.0,AU
+0,my4xifc45w2kz0qhgvo2,keyboard,Retrained,0.1725,0.0,0.0,AU
+0,my4xifc45w2kz0qhgvo2,keyboard,AgentGate,0.277,0.0,0.0,AU
+0,b390bijczcy6wrn3zzfb,click,Legacy,0.1655,0.0,0.0,AU
+0,b390bijczcy6wrn3zzfb,click,Retrained,0.048,0.0,0.0,AU
+0,b390bijczcy6wrn3zzfb,click,AgentGate,0.0795,0.1645,0.0,AU
+0,sim-human-behavior,human (simulated),Legacy,0.038,0.0,0.0,AU
+0,sim-human-behavior,human (simulated),Retrained,0.0375,0.0,0.0,AU
+0,sim-human-behavior,human (simulated),AgentGate,0.0385,0.0,0.0,AU
+1,l6u9n9wf5y7anrplg6q0,click,Legacy,0.237,0.0,0.0,AU
+1,l6u9n9wf5y7anrplg6q0,click,Retrained,0.063,0.0,0.0,AU
+1,l6u9n9wf5y7anrplg6q0,click,AgentGate,0.0775,0.1795,0.0,AU
+1,6mxiize2a5jrj20r9ccp,click,Legacy,0.1735,0.0,0.0,AU
+1,6mxiize2a5jrj20r9ccp,click,Retrained,0.047,0.0,0.0,AU
+1,6mxiize2a5jrj20r9ccp,click,AgentGate,0.055,0.1235,0.0,AU
+1,2ot5kxh8yt00con7iakx,click,Legacy,0.227,0.0,0.0,AU
+1,2ot5kxh8yt00con7iakx,click,Retrained,0.063,0.0,0.0,AU
+1,2ot5kxh8yt00con7iakx,click,AgentGate,0.076,0.1755,0.0,AU
+1,ld2t5laeeyzessds7r7q,keyboard,Legacy,0.008,0.0,0.0,AU
+1,ld2t5laeeyzessds7r7q,keyboard,Retrained,0.01,0.0,0.0,AU
+1,ld2t5laeeyzessds7r7q,keyboard,AgentGate,0.014,0.0,0.0,AU
+1,my4xifc45w2kz0qhgvo2,keyboard,Legacy,0.308,0.0,0.0,AU
+1,my4xifc45w2kz0qhgvo2,keyboard,Retrained,0.262,0.0,0.0,AU
+1,my4xifc45w2kz0qhgvo2,keyboard,AgentGate,0.2855,0.0,0.0,AU
+1,b390bijczcy6wrn3zzfb,click,Legacy,0.159,0.0,0.0,AU
+1,b390bijczcy6wrn3zzfb,click,Retrained,0.049,0.0,0.0,AU
+1,b390bijczcy6wrn3zzfb,click,AgentGate,0.0525,0.124,0.0,AU
+1,sim-human-behavior,human (simulated),Legacy,0.0425,0.0,0.0,AU
+1,sim-human-behavior,human (simulated),Retrained,0.0425,0.0,0.0,AU
+1,sim-human-behavior,human (simulated),AgentGate,0.0415,0.0,0.0,AU
+2,l6u9n9wf5y7anrplg6q0,click,Legacy,0.1605,0.0,0.0,AU
+2,l6u9n9wf5y7anrplg6q0,click,Retrained,0.0715,0.0,0.0,AU
+2,l6u9n9wf5y7anrplg6q0,click,AgentGate,0.098,0.176,0.0,AU
+2,6mxiize2a5jrj20r9ccp,click,Legacy,0.133,0.0,0.0,AU
+2,6mxiize2a5jrj20r9ccp,click,Retrained,0.059,0.0,0.0,AU
+2,6mxiize2a5jrj20r9ccp,click,AgentGate,0.092,0.1675,0.0,AU
+2,2ot5kxh8yt00con7iakx,click,Legacy,0.162,0.0,0.0,AU
+2,2ot5kxh8yt00con7iakx,click,Retrained,0.065,0.0,0.0,AU
+2,2ot5kxh8yt00con7iakx,click,AgentGate,0.103,0.1835,0.0,AU
+2,ld2t5laeeyzessds7r7q,keyboard,Legacy,0.042,0.0,0.0,AU
+2,ld2t5laeeyzessds7r7q,keyboard,Retrained,0.0435,0.0,0.0,AU
+2,ld2t5laeeyzessds7r7q,keyboard,AgentGate,0.0525,0.0,0.0,AU
+2,my4xifc45w2kz0qhgvo2,keyboard,Legacy,0.462,0.0,0.0,AU
+2,my4xifc45w2kz0qhgvo2,keyboard,Retrained,0.328,0.0,0.0,AU
+2,my4xifc45w2kz0qhgvo2,keyboard,AgentGate,0.2655,0.0,0.0,AU
+2,b390bijczcy6wrn3zzfb,click,Legacy,0.133,0.0,0.0,AU
+2,b390bijczcy6wrn3zzfb,click,Retrained,0.055,0.0,0.0,AU
+2,b390bijczcy6wrn3zzfb,click,AgentGate,0.078,0.158,0.0,AU
+2,sim-human-behavior,human (simulated),Legacy,0.049,0.0,0.0,AU
+2,sim-human-behavior,human (simulated),Retrained,0.051,0.0,0.0,AU
+2,sim-human-behavior,human (simulated),AgentGate,0.048,0.0,0.0,AU
