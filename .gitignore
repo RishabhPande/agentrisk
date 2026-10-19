@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+paper/gen/
+paper/figs/
+results/scores_seed0.csv
+results/feature_medians.csv
+.DS_Store
