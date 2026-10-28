@@ -6,8 +6,9 @@ Benchmark, telemetry harness and evaluation code for the paper
 Rishabh Pande, 2026. [PDF](paper/automation-is-not-intent.pdf) · Preprint DOI: [10.5281/zenodo.23477625](https://doi.org/10.5281/zenodo.23477625) · arXiv: *coming soon*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23477625.svg)](https://doi.org/10.5281/zenodo.23477625)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/RishabhPande/agentrisk)
 
-Fraud models learned that "bot-like" means "risky." AI shopping agents now make legitimate purchases with exactly those signals. AgentRisk measures how often fraud models decline legitimate agents, shows how the obvious fixes fail (safe harbor, laundering, hijacking), and evaluates **AgentGate**, a verify–scope–score policy built on agent identity, delegation and mandate scope.
+Fraud models learned that "bot-like" means "risky." AI shopping agents now make legitimate purchases with exactly those signals. AgentRisk measures how often fraud models decline legitimate agents, shows how the obvious fixes fail (safe harbor, laundering, hijacking), and evaluates **AgentGate**, a verify-scope-score policy built on agent identity, delegation and mandate scope.
 
 ## Quickstart
 
