@@ -9,6 +9,22 @@ Rishabh Pande, 2026. [PDF](paper/automation-is-not-intent.pdf) · Preprint DOI: 
 
 Fraud models learned that "bot-like" means "risky." AI shopping agents now make legitimate purchases with exactly those signals. AgentRisk measures how often fraud models decline legitimate agents, shows how the obvious fixes fail (safe harbor, laundering, hijacking), and evaluates **AgentGate**, a verify–scope–score policy built on agent identity, delegation and mandate scope.
 
+## Quickstart
+
+Try the simulator in seconds (needs only numpy and pandas; run from the repo root):
+
+```bash
+pip install numpy pandas
+python -c "import sim; df = sim.generate({'H': 200, 'AU': 200, 'AV': 200}, seed=0); print(df.groupby('cls').size().to_dict())"
+```
+
+This generates 600 synthetic checkout sessions (200 each of legitimate humans, unverified agents, and verified agents) and prints the per-class counts. The full experiments take longer; see Reproduce below.
+
+Results and demo:
+
+- Hugging Face dataset (results only): https://huggingface.co/datasets/RishabhPande/agentrisk
+- Demo Space: https://huggingface.co/spaces/RishabhPande/agentrisk-demo
+
 ## What's here
 
 | Path | Contents |
