@@ -3,4 +3,4 @@ pandas==3.0.5
 scikit-learn==1.9.1
 lightgbm==4.7.0
 matplotlib==3.11.2
-playwright==1.56.0
+playwright==1.64.1
