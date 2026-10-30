@@ -26,6 +26,12 @@ Results and demo:
 - Hugging Face dataset (results only): https://huggingface.co/datasets/RishabhPande/agentrisk
 - Demo Space: https://huggingface.co/spaces/RishabhPande/agentrisk-demo
 
+## Results at a glance
+
+![Share of sessions declined or stepped up, per session class, for the Legacy and AgentGate policies](docs/policies.png)
+
+Share of sessions hard-declined (solid) or stepped up (hatched) per session class, Legacy policy against AgentGate. The data is `results/main.csv`, the mean of 5 seeds of the semi-synthetic benchmark. Absolute rates are properties of the benchmark, not of any production system. Regenerate with `python docs/plot_policies.py` (needs pandas and matplotlib; run from the repo root).
+
 ## What's here
 
 | Path | Contents |
