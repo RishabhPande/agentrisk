@@ -19,6 +19,10 @@ Agent behavioral telemetry is drawn per automation mode from distributions whose
 centres come from real Playwright captures (telemetry/telemetry_summary.csv).
 Everything else is parametric; every assumption is in PARAMS below.
 """
+from collections.abc import Mapping
+from numbers import Integral, Real
+import math
+
 import numpy as np
 import pandas as pd
 
@@ -252,7 +256,30 @@ def _agent_layer(rng, n, kind, P):
 
 
 def generate(n_by_class, seed=0, params=None):
-    P = dict(PARAMS); P.update(params or {})
+    """Generate a nonempty pack with known classes and validated probabilities.
+
+    Invalid class names must never reuse feature vectors from a previous class.
+    Zero counts are allowed, but at least one class must have a positive count.
+    """
+    if not isinstance(n_by_class, Mapping):
+        raise ValueError("n_by_class must map known session classes to counts")
+    for c, n in n_by_class.items():
+        if c not in ALL:
+            raise ValueError(f"Unknown session class: {c!r}; expected one of {ALL}")
+        if isinstance(n, (bool, np.bool_)) or not isinstance(n, Integral) or n < 0:
+            raise ValueError(f"Count for {c} must be a nonnegative integer")
+    if not any(n > 0 for n in n_by_class.values()):
+        raise ValueError("At least one session class must have a positive count")
+    if params is not None and not isinstance(params, Mapping):
+        raise ValueError("params must map known parameter names to probabilities")
+    overrides = {} if params is None else params
+    for key, value in overrides.items():
+        if key not in PARAMS:
+            raise ValueError(f"Unknown simulation parameter: {key!r}")
+        if (isinstance(value, (bool, np.bool_)) or not isinstance(value, Real)
+                or not math.isfinite(value) or not 0 <= value <= 1):
+            raise ValueError(f"Parameter {key} must be a finite probability between 0 and 1")
+    P = dict(PARAMS); P.update(overrides)
     rng = np.random.default_rng(seed)
     frames = []
     for c, n in n_by_class.items():
