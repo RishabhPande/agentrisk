@@ -19,7 +19,7 @@ pip install numpy pandas
 python -c "import sim; df = sim.generate({'H': 200, 'AU': 200, 'AV': 200}, seed=0); print(df.groupby('cls').size().to_dict())"
 ```
 
-This generates 600 synthetic checkout sessions (200 each of legitimate humans, unverified agents, and verified agents) and prints the per-class counts. The full experiments take longer; see Reproduce below.
+This generates 600 synthetic checkout sessions (200 each of legitimate humans, unverified agents, and verified agents) and prints the per-class counts. `generate` accepts only the documented session classes, nonnegative integer counts (with at least one positive count), and known `PARAMS` overrides with finite probabilities in [0, 1]. Invalid inputs raise `ValueError` before generation, so a typo cannot silently alter an experiment. The full experiments take longer; see Reproduce below.
 
 Results and demo:
 
